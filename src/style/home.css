@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient( rgb(71, 178, 255), rgb(132, 66, 219), #cc2ac1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    height: 500px;
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+}
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    justify-content: space-evenly;
+    /* border: none; */
+    color: black;
+    border-top: 1px;
+    border-left: none;
+    border-right: none;
+    /* border-top: 1px;
+    border-radius: 0px; */ 
+}
+input:hover{
+    background-color: whitesmoke;
+}
+#a{
+    text-decoration: none;
+    text-align: right;
+    margin-left: 45%;
+}
+button{
+    width: 95%;
+    /* height: 30px; */
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient( 260deg,rgb(208, 75, 164), rgb(200, 0, 255), rgb(0, 145, 255));
+    /* background-color: pink; */
+    /* background: linear-gradient(left skyblue,center blue,right pink); */
+    color: white;
+    font-size: medium;
+   
+}
+button:hover{
+    /* background: linear-gradient( 260deg,rgb(208, 75, 164), rgb(200, 0, 255), rgb(0, 145, 255)); */
+    background-color: skyblue;
+    cursor: pointer;
+}
+#a1{
+text-align: center;
+text-decoration: none;
+}
+#box1{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+   }
+   .label{
+   margin-right: 200px;
+   
+   }
